@@ -7,7 +7,7 @@ $file = Read-Host -Prompt ‘File [test.jpg]’
 $start_time = Get-Date
 $random = Get-Random -Minimum 1000 -Maximum 1999
 
-$dns_ns = "poc.trustnet.co.il"
+$dns_ns = "poc.test.co.il"
 $test_dns = "test.$dns_ns"
 
 
